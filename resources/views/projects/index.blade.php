@@ -1,7 +1,3 @@
-<x-layout.app>
-
-
-
-   <livewire:projects.index/>
-
-</x-layout.app>
+<x-layouts.app>
+    <livewire:projects.index />
+</x-layouts.app>

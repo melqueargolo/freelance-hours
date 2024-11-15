@@ -1,11 +1,7 @@
-<x-layout.app>
-  
-  <!-- <livewire:projects.show :project = "$project"/> -->
-  <livewire:projects.show :$project/> //simplificado
-  
-  <!-- <livewire:projects.proposals :project = "$project"/> -->
-  <livewire:projects.proposals :$project/>
+<x-layouts.app>
+    <div class="grid grid-cols-3 gap-6">
+        <livewire:projects.show :$project />
 
- 
-
-</x-layout.app>
+        <livewire:projects.proposals :$project />
+    </div>
+</x-layouts.app>

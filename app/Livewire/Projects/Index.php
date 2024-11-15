@@ -3,8 +3,8 @@
 namespace App\Livewire\Projects;
 
 use App\Models\Project;
-use Livewire\Component;
 use Livewire\Attributes\Computed;
+use Livewire\Component;
 
 class Index extends Component
 {
@@ -14,7 +14,6 @@ class Index extends Component
     }
 
     #[Computed()]
-
     public function projects()
     {
         return Project::query()->inRandomOrder()->get();
